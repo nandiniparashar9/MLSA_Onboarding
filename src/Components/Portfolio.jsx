@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/desk-setup.jpg";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "desktop with laptop and coffee";
 
 /**
  * Project list
@@ -31,28 +31,22 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Lets Endorse WebApp",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Built a website to optimise the agricultural supply chain. This platform caters to personalised needs of all parties involved in this chain from farmers to PACs and MFEs",
+    url: "https://github.com/cfgindia2023/Team-50",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Stranger Things themed game",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Built a theme-based game on Unity using C#, Playfab manager, Blender and Mixamo which was played by more than 20 participants, in a college event.",
+    url: "https://github.com/manasvvi1/TheUpsideDownGame",
   },
   {
-    title: "My Resume Site",
+    title: "Kiro Keys",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
-  },
-  {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Built a web3-based password manager that uses non-custodial wallets on the Solana platform.",
+    url: "https://github.com/Nitya-Pasrija/KiroKeys-PasswordIntegrator",
   },
 ];
 
