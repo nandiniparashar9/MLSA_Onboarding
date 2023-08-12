@@ -16,27 +16,26 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/flowers.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "flowers";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I'm a curious and driven individual with a thirst for knowledge and a passion for leadership. With a natural talent for communication, I'm often expressing ideas and inspiring others to action. A tech enthusiast at heart, I'm always eager to explore the latest advancements and discover new ways to innovate. Whether facing a challenge or seizing an opportunity, I'm always ready to dive in and make things happen, driven by their passion for success and their commitment to making a difference.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Game Development",
+  "Web Development",
+  "AR/VR Development",
+  "Leadership",
+  "Communication",
 ];
 
 /**
@@ -45,7 +44,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "Hi, I’m Nandini Parashar, a tech enthusiast, an avid debater and above all a curious individual, eager to learn and grow. I’m never afraid to ask questions, and tackle any situation head on. I’m currently pursuing Electronics and Communication Engineering at Indira Gandhi Delhi Technical University for Women, during which I have delved into diverse tech stacks, from web development and game development to AR/VR. I aim to create a meaningful impact in this world and giving back to the communities I represent. And so, since my first year at college, I have been actively fostering communities that encourage growth and learning. As the President of the Microsoft Learn Student Ambassador Student Chapter IGDTUW, with over 500 members and an Instagram following of 600, I have nurtured a culture of knowledge sharing and empowerment. Moreover, as the head of the debating club, I have helped more than 100 members develop skills in debating formats and public speaking. The journey that I’m on right now, is one that started off with only a love for technology, public speaking, interacting with new people and managing events but grew into one where I get a chance to reinvent myself daily. I also take immense pride in sharing that I recently received the Generation Google Scholarship, Harvard WE Amplify Scholarship, and shortlisting for the GitHub Campus Expert and Microsoft Learn Student Ambassador programs. I also collaborated with the OnePlus SAP community to design an Instagram filter for DOMINATE 3.0, and I have participated in and won various hackathons, such as the Solana Hackday 2022.";
 
 const About = () => {
   return (
